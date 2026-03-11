@@ -1,0 +1,12 @@
+{
+  "mappings": [
+    { "pad": 0, "type": "cc", "channel": 1, "value": 37 },
+    { "pad": 1, "type": "note", "channel": 1, "value": 36 },
+    { "pad": 2, "type": "note", "channel": 1, "value": 38 },
+    { "pad": 3, "type": "note", "channel": 1, "value": 39 },
+    { "pad": 4, "type": "note", "channel": 1, "value": 40 },
+    { "pad": 5, "type": "note", "channel": 1, "value": 41 },
+    { "pad": 6, "type": "note", "channel": 1, "value": 42 },
+    { "pad": 7, "type": "note", "channel": 1, "value": 43 }
+  ]
+}
