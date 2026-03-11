@@ -169,7 +169,7 @@ bool CoreMidiManager::connectSource(int index)
         if (index >= 0 && index < sourceCount())
         {
             const MIDIEndpointRef source = MIDIGetSource(index);
-            const OSStatus status = MIDIPortConnectSource(m_data->inputPort, source, nullptr);
+            const OSStatus status = MIDIPortConnectSource(m_data->inputPort, source, static_cast<MidiManager*>(this));
 
             if (status != noErr)
             {
